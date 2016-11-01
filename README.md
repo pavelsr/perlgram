@@ -25,9 +25,11 @@ my $w = Telegram::Wizard->new({
 # process of $Update objects
 
 my $res = $w->process($update);
-$api->sendMessage($msg);
+$api->sendMessage($res);
 
 ```
+
+Easy. Peasy. Japanesey
 
 Fore more info check out simulator.pl code
 
